@@ -26,7 +26,7 @@ export const Login = observer(() => {
             <div className='login-container'>
                 <img width={150} src={logo} alt="No3rd Logo"></img>
 
-                <Typography variant='subtitle1'>Student Portal</Typography>
+                <Typography variant='subtitle1'>Staff Portal</Typography>
                 <Typography style={{ color: 'indianred' }} variant='subtitle1'>{login_store.error}</Typography>
 
                 <TextField
